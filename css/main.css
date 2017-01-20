@@ -38,7 +38,7 @@ h1 {
   font-size: 1.5em;
   font-weight: bold;
   padding: 0;
-  margin-left: 1em;
+  margin-left: .5em;
   text-align: left;
 }
 
@@ -80,7 +80,7 @@ strong {
 
 div {
   display: inline-block;
-  padding: 1em;
+  padding: .5em;
   text-align: left;
 }
 
@@ -100,11 +100,7 @@ div {
   }
 
   div {
-    max-width: 48%;
-  }
-
-  .img-flex {
-    display: inline-block;
+    max-width: 47%;
   }
 }
 
@@ -114,6 +110,10 @@ div {
     font-size: 120%;
     line-height: 1.5;
   }
+
+  .img-flex {
+    padding-top: 1em;
+  }
 }
 
 @media only screen and (min-width: 90em) {
@@ -121,5 +121,13 @@ div {
   html {
     font-size: 130%;
     line-height: 1.5;
+  }
+
+  .content {
+    padding-left: 10em;
+  }
+
+  .img-flex {
+    max-height: 20em;
   }
 }
