@@ -25,6 +25,7 @@ body {
   width: 100%;
   display: block;
   max-width: 30em;
+  vertical-align: middle;
 }
 
 h1 {
